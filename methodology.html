@@ -1,6 +1,5 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>口径与来源</title>
-<style>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>口径与来源</title><style>
 :root{--bg:#f5f7fa;--panel:#fff;--ink:#17202a;--muted:#667085;--line:#d9e1e8;
 --brand:#3157d5;--soft:#eef2ff;--good:#08785b;--warn:#9a6700;--bad:#b42318}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);
@@ -25,14 +24,10 @@ th[data-sort]{cursor:pointer}.num{text-align:right;font-variant-numeric:tabular-
 .excluded{background:#fff0ee;color:var(--bad)}.pager{display:flex;justify-content:space-between;gap:10px;margin-top:14px}
 .topline{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.back{margin-left:auto}
 @media(max-width:700px){.wrap{padding:16px}.panel{padding:14px}}
-</style></head><body><main class="wrap"><div class="topline"><div>
-<h1>口径与来源</h1><p class="lede">Qwen历代开源模型下载排行</p></div>
-<a class="back" href="index.html">返回完整榜</a></div>
-<section class="panel"><ul>
-<li>确认主榜：57.26亿，仅纳入有直接谱系证据的仓库。</li>
-<li>待核推断：2.26亿，按高、中、低置信分层。</li>
-<li>含待核口径：59.52亿。</li>
-<li>全渠道可观测：63.99亿。</li>
-</ul></section><section class="panel"><h2>平台来源</h2><ul><li><a target="_blank" rel="noopener" href="https://huggingface.co/api/models?author=Qwen&amp;limit=1000">Hugging Face</a>：官方仓库及第三方仓库；累计下载计数 downloadsAllTime</li><li><a target="_blank" rel="noopener" href="https://modelscope.cn/organization/qwen">ModelScope</a>：官方组织及第三方仓库；平台公开累计下载计数</li><li><a target="_blank" rel="noopener" href="https://ollama.com/search?q=qwen">Ollama</a>：官方库Qwen家族；累计Pulls；多尺寸家族只进系列级</li><li><a target="_blank" rel="noopener" href="https://civitai.com/models?baseModels=Qwen">Civitai</a>：Qwen-Image LoRA/Checkpoint；文件下载计数；仅进生态附录</li><li><a target="_blank" rel="noopener" href="https://www.kaggle.com/models?query=qwen">Kaggle</a>：Qwen相关模型；模型级累计下载；多尺寸模型只进系列级</li><li><a target="_blank" rel="noopener" href="https://hub.docker.com/u/ai">Docker Hub</a>：ai命名空间Qwen镜像；镜像pull_count；多尺寸家族只进系列级</li><li><a target="_blank" rel="noopener" href="https://modelers.cn/models?name=qwen">魔乐社区 Modelers</a>：Qwen相关昇腾量化版；仓库公开下载计数</li><li><a target="_blank" rel="noopener" href="https://www.wisemodel.cn/models">始智 wisemodel</a>：名称或简介含Qwen/千问；project_load_num；字段定义未公开</li><li><a target="_blank" rel="noopener" href="https://ollama.com/search?q=qwen">Ollama社区</a>：从种子上传者探测到的Qwen模型；累计Pulls；覆盖为下限</li></ul></section>
-<p class="muted">平台累计下载/拉取计数不等于去重用户数或模型实际调用量。</p>
-</main></body></html>
+</style></head>
+<body><main class="wrap"><div class="topline"><h1>口径与来源</h1><a class="back" href="index.html">返回完整榜</a></div>
+<section class="panel"><ul><li>确认主榜：58.32亿</li><li>官方：40.70亿</li>
+<li>第三方变体：17.62亿</li><li>待核：1.06亿</li>
+<li>含待核：59.38亿</li></ul></section>
+<section class="panel"><h2>平台汇总</h2><ul><li><strong>Hugging Face</strong>：确认5,585,781,258，待核99,559,291，观测6,353,396,395</li><li><strong>Ollama 官方库</strong>：确认13,523,300，待核0，观测203,624,124</li><li><strong>ModelScope</strong>：确认231,612,715，待核3,664,775，观测248,785,655</li><li><strong>Ollama 社区</strong>：确认19,667，待核2,765,075，观测4,849,676</li><li><strong>Docker Hub</strong>：确认330,867，待核0，观测3,394,951</li><li><strong>Kaggle</strong>：确认290,887，待核394,353，观测1,114,208</li><li><strong>Civitai</strong>：确认0，待核0，观测1,640,481</li><li><strong>魔乐 Modelers</strong>：确认0，待核86,235，观测87,788</li><li><strong>始智 Wisemodel</strong>：确认0，待核9,187，观测12,608</li></ul></section>
+<p class="muted">下载/拉取不等于用户数；第三方为公开可观测下限。</p></main></body></html>
